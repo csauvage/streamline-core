@@ -35,6 +35,8 @@ import Streamline from 'react-streamline';
  - [Clément SAUVAGE](https://twitter.com/clementsauvage) 
  - [Vincent LE MOIGN aka Webalys](https://twitter.com/webalys)
 
-# Companies who's using it 
+# List of companies which use this lib 
 
 - Les Tontons Livreurs : https://lestontonslivreurs.com
+
+_ Want to be featured ? Open a PR with a screenshot_
