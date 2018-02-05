@@ -39,4 +39,4 @@ import Streamline from 'react-streamline';
 
 - Les Tontons Livreurs : https://lestontonslivreurs.com
 
-_ Want to be featured ? Open a PR with a screenshot_
+_Want to be featured ? Open a PR with a screenshot_
