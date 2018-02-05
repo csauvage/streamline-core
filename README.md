@@ -17,8 +17,16 @@ $ yarn add react-streamline
 
 ```js
 
-import {pen, trash, faceId} from 'react-streamline-line';
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import {pen, trash, faceId} from 'react-streamline-essentials';
 import Streamline from 'react-streamline';
+
+
+const Pen = () => (<Streamline icon={pen} classes={'edit'})
+
+ReactDOM.render(<Pen/>, 
+                document.getElementById('root'));
 
 ```
 
