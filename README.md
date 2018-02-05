@@ -2,8 +2,33 @@
 
 # How to use
 
-1. First import the icon package you want to use `yarn add react-streamline-line`
-1. Then add the core library `yarn add react-streamline`
+1. First import the icon package you want to use 
+
+```bash
+$ yarn add react-streamline-line
+```
+
+2. Then add the core library 
+```bash
+$ yarn add react-streamline
+```
+
+3. In your project, import the desired icon
+
+```js
+
+import {pen, trash, faceId} from 'react-streamline-line';
+import Streamline from 'react-streamline';
+
+```
+
+
+
+# API
+
+| props | default value | impact | required |
+| ----- | ------------- | ------ | -------- |
+| icon  | _none_ | icon displayed  | *YES* |
 
 # Maintainers
 
