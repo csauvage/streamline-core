@@ -5,12 +5,12 @@
 1. First import the icon package you want to use 
 
 ```bash
-$ yarn add react-streamline-line
+$ yarn add @streamline/line-essentials
 ```
 
-2. Then add the core library 
+2. Then add this core library 
 ```bash
-$ yarn add react-streamline
+$ yarn add @streamline/core
 ```
 
 3. In your project, import the desired icon
@@ -19,11 +19,11 @@ $ yarn add react-streamline
 
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import {pen, trash, faceId} from 'react-streamline-essentials';
-import Streamline from 'react-streamline';
+import {pen, trash, faceId} from '@streamline/line-essentials';
+import {StreamlineIcon} from '@streamline/core';
 
 
-const Pen = () => (<Streamline icon={pen} classes={'edit'})
+const Pen = () => (<StreamlineIcon icon={pen} classes={'edit'})
 
 ReactDOM.render(<Pen/>, 
                 document.getElementById('root'));
@@ -37,14 +37,9 @@ ReactDOM.render(<Pen/>,
 | props | default value | impact | required |
 | ----- | ------------- | ------ | -------- |
 | icon  | _none_ | icon displayed  | *YES* |
+| classes  | _none_ | classes applied to the icon  | No |
 
 # Maintainers
 
  - [Clément SAUVAGE](https://twitter.com/clementsauvage) 
  - [Vincent LE MOIGN aka Webalys](https://twitter.com/webalys)
-
-# List of companies which use this lib 
-
-- Les Tontons Livreurs : https://lestontonslivreurs.com
-
-_Want to be featured ? Open a PR with a screenshot_
